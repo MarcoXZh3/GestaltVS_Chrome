@@ -1,0 +1,36 @@
+{
+  "manifest_version":   2,
+  "name":               "__MSG_extName__",
+  "author": "MarcoXZh",
+  "version":            "1.0.0",
+
+  "default_locale":     "en_US",
+  "description":        "__MSG_extDesc__",
+  "icons":              { "19": "icons/icon19.png",
+                          "48": "icons/icon48.png",
+                          "128": "icons/icon128.png" },
+
+  "browser_action":     {
+    "default_icon":     "icons/icon19.png",
+    "default_popup":    "popup.html",
+    "default_title":    "__MSG_extTitle__"
+  },
+
+  "permissions": ["downloads", "activeTab", "tabs", "<all_urls>"],
+
+  "background": {
+    "scripts": ["preference.js", "background.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["contentScripts/chroma.min.js",
+           "contentScripts/deltae.global.min.js",
+           "contentScripts/lzma_worker-min.js",
+           "contentScripts/lzma-min.js",
+           "contentScripts/GestaltLaws.js",
+           "contentScripts/VisualSimilarity.js",
+           "contentScript.js"]
+  }]
+}

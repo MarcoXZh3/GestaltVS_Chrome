@@ -1,0 +1,17 @@
+{
+  "extName":            {"message": "GestaltVS",                            "description": ""},
+  "extDesc":            {"message": "Gestalt laws of grouping based web page visual similarity evaluation",
+                                                                            "description": ""},
+  "extTitle":           {"message": "Gestalt based visual similarity",      "description": ""},
+
+  "GestaltMerging_mi":  {"message": "Merge by Gestalt Laws",                "description": ""},
+  "GestaltMerging_img": {"message": "./icons/mi-gemerge_en-US.png",         "description": ""},
+  "VisualTree_mi":      {"message": "Visual Tree ...",                      "description": ""},
+  "VisualTree_img":     {"message": "./icons/mi-visualtree_en-US.png",      "description": ""},
+  "BlockTree_mi":       {"message": "Semantic Block Tree ...",              "description": ""},
+  "BlockTree_img":      {"message": "./icons/mi-blocktree_en-US.png",       "description": ""},
+  "AnalyzePage_mi":     {"message": "Analyze Current Page",                 "description": ""},
+  "AnalyzePage_img":    {"message": "./icons/mi-analyzepage_en-US.png",     "description": ""},
+  "BatchCrawling_mi":   {"message": "Batch Crawling",                       "description": ""},
+  "BatchCrawling_img":  {"message": "./icons/mi-batchcrawl_en-US.png",      "description": ""}
+}

@@ -1,0 +1,17 @@
+﻿{
+  "extName":            {"message": "GestaltVS",                            "description": ""},
+  "extDesc":            {"message": "基于格式塔法则的网页相似度分析",
+                                                                            "description": ""},
+  "extTitle":           {"message": "格式塔网页分块",                       "description": ""},
+
+  "GestaltMerging_mi":  {"message": "格式塔块合并",                         "description": ""},
+  "GestaltMerging_img": {"message": "./icons/mi-gemerge_zh-CN.png",         "description": ""},
+  "VisualTree_mi":      {"message": "可视树 ...",                           "description": ""},
+  "VisualTree_img":     {"message": "./icons/mi-visualtree_zh-CN.png",      "description": ""},
+  "BlockTree_mi":       {"message": "分块树 ...",                           "description": ""},
+  "BlockTree_img":      {"message": "./icons/mi-blocktree_en-US.png",       "description": ""},
+  "AnalyzePage_mi":     {"message": "分析该网页",                           "description": ""},
+  "AnalyzePage_img":    {"message": "./icons/mi-analyzepage_zh-CN.png",     "description": ""},
+  "BatchCrawling_mi":   {"message": "批量处理",                             "description": ""},
+  "BatchCrawling_img":  {"message": "./icons/mi-batchcrawl_zh-CN.png",      "description": ""}
+}
